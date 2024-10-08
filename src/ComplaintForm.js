@@ -1,7 +1,7 @@
 import React from "react";
-import InputField from "./InputField";
-import FileUpload from "./FileUpload";
-import SubmitButton from "./SubmitButton";
+import InputField from "./Components/InputField";
+import FileUpload from "./Components/FileUpload";
+import SubmitButton from "./Components/SubmitButton";
 
 const ComplaintForm = () => {
   return (

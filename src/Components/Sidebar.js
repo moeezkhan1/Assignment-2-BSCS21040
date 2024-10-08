@@ -32,7 +32,37 @@ const Sidebar = () => {
               Blank
             </Link>
           </li>
-          {/* Add other items here */}
+        </ul>
+        <div className="tex-lg font-bold mb-4 mt-4">Tools and Components</div>
+        <ul className="space-y-4">
+          <li>
+            <Link
+              to="/ComplaintForm"
+              className="hover:bg-gray-700 p-2 block rounded"
+            >
+              Complaint Form
+            </Link>
+          </li>
+          <li>
+            <Link to="/profile" className="hover:bg-gray-700 p-2 block rounded">
+              Buttons
+            </Link>
+          </li>
+          <li>
+            <Link to="/SignIn" className="hover:bg-gray-700 p-2 block rounded">
+              Forms
+            </Link>
+          </li>
+          <li>
+            <Link to="/SignUp" className="hover:bg-gray-700 p-2 block rounded">
+              cards
+            </Link>
+          </li>
+          <li>
+            <Link to="/blank" className="hover:bg-gray-700 p-2 block rounded">
+              Typography
+            </Link>
+          </li>
         </ul>
       </nav>
     </div>
