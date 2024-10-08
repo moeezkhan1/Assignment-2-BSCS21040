@@ -1,6 +1,6 @@
 import React from "react";
 import Sidebar from "./Components/Sidebar";
-// import Navbar from "./Components/NavBar";
+import Navbar from "./Components/NavBar";
 import Graph from "./Components/Graph";
 
 const MainPage = () => {
@@ -11,8 +11,7 @@ const MainPage = () => {
 
       {/* Main Content */}
       <div className="flex-1 flex flex-col">
-        {/* Navbar */}
-        {/* <Navbar /> */}
+        <Navbar />
 
         {/* Content */}
         <div className="p-6">
