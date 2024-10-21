@@ -23,6 +23,7 @@ const Profile = () => {
             also focusing on a VR-based project educating about PTSD called
             MINDSCAPE.
           </p>
+          <></>
         </div>
       </div>
     </div>
