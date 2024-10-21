@@ -4,6 +4,8 @@ import MainPage from "./MainPage";
 import SignIn from "./SignIn";
 import SignUp from "./SignUp";
 import ComplaintFrom from "./ComplaintForm";
+import Profile from "./Components/profile";
+
 const App = () => {
   return (
     <Router>
@@ -11,6 +13,7 @@ const App = () => {
         <Route path="/" element={<MainPage />} />
         <Route path="/SignUp" element={<SignUp />} />
         <Route path="/SignIn" element={<SignIn />} />
+        <Route path="/Profile" element={<Profile />} />
         <Route path="/ComplaintForm" element={<ComplaintFrom />} />
       </Routes>
     </Router>
